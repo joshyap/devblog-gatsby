@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer>
-            <p>Created by Josh Yap, © 2020</p>
+            <p>Created by Joshua Yap, © 2020</p>
             <div>
             <ul class="navbar-nav mr-auto navbar-light">
                 <li class="nav-item">
