@@ -3,9 +3,6 @@ import { Link } from "gatsby"
 
 import headerStyles from "./header.module.css"
 
-// export default props => <h1>{props.headerText}</h1>
-{/* <script src="https://use.fontawesome.com/0b7ae9e0e3.js"></script> */}
-
 const Header = () => {
     return (
         <header className={headerStyles.header}>
@@ -28,9 +25,3 @@ const Header = () => {
 
 
 export default Header
-
-{/* <Link to="/blog">Blog</Link>
-<Link to="/projects/">Projects</Link>
-<Link to="/contact/">Contact</Link> */}
-
-

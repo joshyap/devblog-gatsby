@@ -5,26 +5,26 @@ const Footer = () => {
         <footer>
             <p>Created by Joshua Yap, © 2020</p>
             <div>
-            <ul class="navbar-nav mr-auto navbar-light">
-                <li class="nav-item">
-                <a class="nav-link" href="https://twitter.com/J0SHYAP" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            {/* <ul>
+                <li>
+                <a href="https://twitter.com/J0SHYAP" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="https://www.linkedin.com/in/joshuacyap/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <li>
+                <a href="https://www.linkedin.com/in/joshuacyap/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/joshyap" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <li>
+                    <a href="https://github.com/joshyap" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.youtube.com/channel/UCFWhZ6JJaqltd_-qEbPk0IA" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCFWhZ6JJaqltd_-qEbPk0IA" target="_blank" rel="noopener noreferrer"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.freecodecamp.org/joshyap" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+                <li>
+                    <a href="https://www.freecodecamp.org/joshyap" target="_blank" rel="noopener noreferrer"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="mailto:joshua.c.yap@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                <li>
+                    <a href="mailto:joshua.c.yap@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                 </li>          
-            </ul>                                            
+            </ul>                                             */}
             </div>
         </footer>
     )

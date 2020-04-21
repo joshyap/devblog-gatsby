@@ -1,5 +1,5 @@
 .header {
-    padding: 1rem 0 3rem;
+    padding: 1rem;
 }
 
 .title {
@@ -27,4 +27,12 @@
 
 .active-nav-item {
     color: #333333;
+}
+
+li {
+    margin: .5rem;
+}
+
+a {
+    text-decoration: none;
 }
