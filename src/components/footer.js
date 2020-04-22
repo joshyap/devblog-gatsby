@@ -3,8 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer>
-            <p>Created by Joshua Yap, © 2020</p>
-            <div>
+            <p>Created by Joshua Yap, © 2020</p>            
             {/* <ul>
                 <li>
                 <a href="https://twitter.com/J0SHYAP" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -24,8 +23,7 @@ const Footer = () => {
                 <li>
                     <a href="mailto:joshua.c.yap@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                 </li>          
-            </ul>                                             */}
-            </div>
+            </ul>                                             */}            
         </footer>
     )
 }
