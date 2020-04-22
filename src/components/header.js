@@ -13,7 +13,7 @@ const Header = () => {
             </h1>
             <nav>
                 <ul className={headerStyles.navList}>
-                    <li><Link to="/" className={headerStyles.navItem}>Home</Link></li>
+                    {/* <li><Link to="/" className={headerStyles.navItem}>Home</Link></li> */}
                     <li><Link to="/blog" className={headerStyles.navItem}>Blog</Link></li>
                     <li><Link to="/projects" className={headerStyles.navItem}>Projects</Link></li>
                     <li><Link to="/contact" className={headerStyles.navItem}>Contact</Link></li>
