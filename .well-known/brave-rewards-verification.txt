@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: joshyap.dev
+Token: 21471ac5bd6996f592e405391b78e90c54a229a71c6986cab6c74aa30f2ab267
