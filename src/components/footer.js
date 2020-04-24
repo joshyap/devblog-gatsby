@@ -1,9 +1,21 @@
 import React from 'react'
+import { graphql, useStaticQuery } from "gatsby"
+import { strictEqual } from 'assert';
 
 const Footer = () => {
+const data = useStaticQuery(graphql`
+    query {
+        site {
+            siteMetadata {
+                author
+            }
+        }
+    }
+`)
+
     return (
         <footer>
-            <p>Created by Joshua Yap, © 2020</p>            
+            <p>Created by {data.site.siteMetadata.author}, © 2020</p>            
             {/* <ul>
                 <li>
                 <a href="https://twitter.com/J0SHYAP" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter" aria-hidden="true"></i></a>
