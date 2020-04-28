@@ -1,5 +1,5 @@
 ---
-title: "Blogging with Gatsby"
+title: "New blog - who dis?"
 date: "2020-04-24"
 ---
 
