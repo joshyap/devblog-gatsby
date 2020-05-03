@@ -1,6 +1,7 @@
 ---
 title: "Quarantine goals"
 date: "04-28-20"
+description: "Noting down some quarantine goals to keep myself accountable"
 ---
 
 Goals of the quarantine:

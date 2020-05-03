@@ -1,4 +1,8 @@
 html {
-    background-color: lavenderblush;
-    font-family: sans-serif;
-  }
+  background-color: lavenderblush;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}

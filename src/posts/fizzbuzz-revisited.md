@@ -1,6 +1,7 @@
 ---
 title: "FizzBuzz Ternary"
 date: "04-29-20"
+description: "Taking another look at fizzbuzz with ternary operators"
 ---
 
 My younger brother recently completed a technical interview over Zoom due to the current shelter-in-place situation in the US. They were basically asking for a classic fizzbuzz solution, but simply used a different name.
