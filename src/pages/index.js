@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import indexStyles from "./index.module.css"
+// import indexStyles from "./index.module.css"
 
 export default () => (
   <Layout>

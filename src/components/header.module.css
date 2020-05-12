@@ -28,3 +28,10 @@
 .active-nav-item {
     color: #333333;
 }
+
+.nav-list li:last-child {
+    /* justify-self: end; */
+    /* justify-items: flex-end; */
+    justify-self: flex-end;
+    /* background-color: red; */
+}

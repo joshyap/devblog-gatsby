@@ -1,6 +1,6 @@
 ---
 title: "New blog - who dis?"
-date: "04-24-2020"
+date: "04-24-20"
 description: "Overview and learnings from building this new blog in Gatsby and React"
 ---
 

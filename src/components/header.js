@@ -27,7 +27,8 @@ const Header = () => {
                     <li><Link to="/blog" className={headerStyles.navItem}>Blog</Link></li>
                     <li><Link to="/projects" className={headerStyles.navItem}>Projects</Link></li>
                     <li><Link to="/contact" className={headerStyles.navItem}>Contact</Link></li>
-                </ul>
+                    {/* <li><button className={headerStyles.navItem + ' ' + headerStyles.colorToggle}>&#9728; &#9790;</button></li> */}
+                </ul>                
             </nav>
         </header>
     )    
