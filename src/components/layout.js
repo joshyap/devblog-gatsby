@@ -7,12 +7,14 @@ import Container from "../components/container"
 
 const Layout = (props) => {
     return (
-        <div className={layoutStyles.layout}>
-            <Header />
-            <Container>
-                {props.children}
-            </Container>
-            <Footer />
+        <div className={layoutStyles.backLayout}>
+            <div className={layoutStyles.layout}>
+                <Header />
+                <Container>
+                    {props.children}
+                </Container>
+                <Footer />
+            </div>
         </div>
     )
 }

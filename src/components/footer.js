@@ -15,7 +15,7 @@ const data = useStaticQuery(graphql`
 
     return (
         <footer>
-            <p>Created by {data.site.siteMetadata.author}, © 2020</p>            
+            <p>Created by {data.site.siteMetadata.author}, © 2020. All rights reserved.</p>            
             {/* <ul>
                 <li>
                 <a href="https://twitter.com/J0SHYAP" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter" aria-hidden="true"></i></a>
