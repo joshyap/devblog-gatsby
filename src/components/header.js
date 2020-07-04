@@ -21,24 +21,13 @@ const Header = () => {
                     <Link className={headerStyles.title} to="/">
                         {data.site.siteMetadata.title}
                     </Link>
-                    {/* <span className={headerStyles.themeSwitchWrapper}>
-                        <label className={headerStyles.themeSwitch}>
-                            <input type="text" id={headerStyles.checkbox} />
-                            <div className={headerStyles.slider}></div>
-                            <span className={headerStyles.slider + ' ' + headerStyles.round}>
-                                &#9728;&#9790;                    
-                            </span>
-                        </label>
-                    </span> */}
                 </h1>               
             </div>
             <nav>
-                <ul className={headerStyles.navList}>
-                    {/* <li><Link to="/" className={headerStyles.navItem}>Home</Link></li> */}
+                <ul className={headerStyles.navList}>                    
                     <li><Link to="/blog" className={headerStyles.navItem}>Blog</Link></li>
                     <li><Link to="/projects" className={headerStyles.navItem}>Projects</Link></li>
-                    <li><Link to="/contact" className={headerStyles.navItem}>Contact</Link></li>
-                    {/* <li><button className={headerStyles.navItem + ' ' + headerStyles.colorToggle}>&#9728; &#9790;</button></li> */}
+                    <li><Link to="/contact" className={headerStyles.navItem}>Contact</Link></li>                    
                 </ul>                
             </nav>
         </header>

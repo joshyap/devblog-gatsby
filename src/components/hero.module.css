@@ -1,0 +1,42 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-color: teal;
+    display: grid;
+    /* border: solid 5px green;      */
+}
+
+.left {
+    background-color: white;
+    color: teal;
+    height: 100vh;
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* border: solid 1px purple; */
+}
+
+.right {
+    background-color: teal;
+    color: white;
+    height: 100vh;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroHeader {
+    position: absolute;
+    top: 80px;
+}
+
+.heroFooter {
+    position: absolute;
+}
+/* end css reset */
+
+/* completely disable scrolling on the homepage */
+html, body {margin: 0; height: 100%; overflow: hidden}
