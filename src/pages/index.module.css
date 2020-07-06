@@ -9,12 +9,12 @@
 .left {
     grid-column: 1;
     background-color: white;
-    color: teal;    
+    color: black;    
 }
 
 .right {
     grid-column: 2;
-    background-color: teal;
+    background-color: black;
     color: white;
 }
 

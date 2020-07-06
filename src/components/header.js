@@ -25,9 +25,9 @@ const Header = () => {
             </div>
             <nav>
                 <ul className={headerStyles.navList}>                    
-                    <li><Link to="/blog" className={headerStyles.navItem}>Blog</Link></li>
-                    <li><Link to="/projects" className={headerStyles.navItem}>Projects</Link></li>
-                    <li><Link to="/contact" className={headerStyles.navItem}>Contact</Link></li>                    
+                    <li><Link to="/blog" className={headerStyles.navItem}>blog</Link></li>
+                    <li><Link to="/projects" className={headerStyles.navItem}>projects</Link></li>
+                    <li><Link to="/contact" className={headerStyles.navItem}>contact</Link></li>                    
                 </ul>                
             </nav>
         </header>
