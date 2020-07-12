@@ -3,6 +3,7 @@ import React from "react"
 import indexStyles from "./index.module.css"
 import Header from "../components/header"
 // import Footer from "../components/footer"
+import TextLoop from "react-text-loop";
 
 
 export default () => (
@@ -16,11 +17,16 @@ export default () => (
       </div>
       <div className={indexStyles.right}>
         <div className={indexStyles.hidden}><Header /></div>
-        <h1 className={indexStyles.text}>
-          i like to make things
+        <h1 className={indexStyles.text}>          
+          i like to&nbsp;
+          <TextLoop>                    
+              <span>build</span>
+              <span>learn</span>
+              <span>explore</span>
+          </TextLoop>{" "}
         </h1>
-        <br/><br/>
-        <p className={indexStyles.text}>(P.S. I am currently rebuilding this site as a JAMstack project so it is still a work in progress)</p>
+        <br/>
+        <p className={indexStyles.text}>(P.S. I am currently rebuilding this site as a JAMstack project so it is still a work in progress)</p>        
       </div>      
     </div>    
   // </Layout>
