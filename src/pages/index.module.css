@@ -3,7 +3,7 @@
     width: 100vw;
     /* background-color: red; */
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 50%;    
 }
 
 .left {
@@ -22,6 +22,7 @@
     text-align: center;
     position: relative;
     top: 32%;
+    margin: 0 auto;
     overflow: hidden;
 }
 
@@ -78,6 +79,13 @@
         color: white;
         grid-column-start: 1;
         grid-column-end: 3; 
+    }
+
+    .text {
+        text-align: center;
+        position: relative;
+        top: 20%;
+        overflow: hidden;
     }
 }
 
