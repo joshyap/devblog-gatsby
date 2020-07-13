@@ -26,7 +26,7 @@ export default () => (
           </TextLoop>{" "}
         </h1>
         <br/>
-        <p className={indexStyles.text}>(P.S. I am currently rebuilding this site as a JAMstack project so it is still a work in progress)</p>        
+        <p className={indexStyles.text}>(P.S. I am currently rebuilding this site as a JAMstack project so it is still a work in progress)</p> 
       </div>      
     </div>    
   // </Layout>
