@@ -6,3 +6,22 @@
 .header {
     text-align: center;
 }
+
+.listitem {
+    /* background-color: #1DA1F2; */
+    border: solid .1em gray;
+    /* color: white; */
+    border-radius: .3em;
+    padding: .5em;
+    margin: .5em;
+    text-decoration: none;
+}
+
+.linkitem {
+    text-decoration: none;
+    color: black;
+}
+
+.linkitem:visited {
+    color: black;
+}
