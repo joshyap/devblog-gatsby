@@ -1,7 +1,4 @@
-/* @import-normalize; */
-
-.back-layout {
-    /* background-color: red; */
+.back-layout {    
     height: 100vh;
     width: 100vw;
 }
@@ -15,7 +12,6 @@
 } */
 
 .layout {
-    /* background-color: blue; */
     padding-top: .5rem;
     padding-right: .5rem;
     padding-bottom: 0rem;
@@ -23,4 +19,9 @@
     min-height: 95vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
+}
+
+.blogpost {
+    margin: 1rem auto;
+    background-color: red;
 }

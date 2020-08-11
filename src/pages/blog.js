@@ -6,22 +6,26 @@ import blogStyles from "./blog.module.css"
 
 const BlogPage = () => {
   const data = useStaticQuery(graphql`
-      query {
-          allMarkdownRemark {
-              edges {
-                  node {
-                      frontmatter {
-                          title
-                          date
-                          description
-                      }
-                      fields {
-                          slug
-                      }
-                  }
-              }
-          }
-      }
+        query {        
+            allMarkdownRemark {
+                edges {
+                    node {
+                        frontmatter {
+                            title
+                            date
+                            description
+                        }
+                        timeToRead
+                        wordCount {
+                            words
+                        }
+                        fields {
+                            slug
+                        }
+                    }
+                }
+            } 
+        }
   `)
 
   return (
@@ -34,6 +38,7 @@ const BlogPage = () => {
                           <Link to={`/blog/${edge.node.fields.slug}`} className={blogStyles.linkitem}>
                               <h2>{edge.node.frontmatter.title}</h2>
                               <p>{edge.node.frontmatter.date} // {edge.node.frontmatter.description}</p>
+                              <p><i>{edge.node.wordCount.words} words</i></p>
                           </Link>
                       </li>
                   )
