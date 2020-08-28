@@ -7,13 +7,26 @@ import blogStyles from "./blog.module.css"
 const BlogPage = () => {
   const data = useStaticQuery(graphql`
         query {        
-            allMarkdownRemark {
+            allMarkdownRemark ( 
+                filter: { 
+                    frontmatter: { 
+                      type: { in:["blogpost"] } 
+                      published: { eq: true }                      
+                    }
+                  }
+                sort: {
+                    fields: [frontmatter___date]
+                    order: DESC
+                }
+            ) {
                 edges {
                     node {
                         frontmatter {
                             title
                             date
                             description
+                            published
+                            type
                         }
                         timeToRead
                         wordCount {

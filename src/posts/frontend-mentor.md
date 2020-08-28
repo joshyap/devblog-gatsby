@@ -2,6 +2,8 @@
 title: "frontendmentor.io"
 date: "07-27-20"
 description: "Real world exercises and projects for frontend developers"
+type: blogpost
+published: true
 ---
 
 There's not really much of a secret to learning frontend development (or any skill, for that matter). You have to practice to really enforce what you are learning and intentionally grow your skills. That is why I was so excited when I learned about <a href="https://www.frontendmentor.io/" target="_blank">frontendmentor.io</a>
