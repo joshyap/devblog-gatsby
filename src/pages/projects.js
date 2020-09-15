@@ -26,6 +26,7 @@ const ProjectsPage = () => {
                       description
                       published
                       type
+                      link
                   }
                   fields {
                       slug
@@ -43,10 +44,10 @@ const ProjectsPage = () => {
             {data.allMarkdownRemark.edges.map((edge) => {
                 return (
                     <li className={blogStyles.listitem}>
-                        <Link to={`/blog/${edge.node.fields.slug}`} className={blogStyles.linkitem}>
+                        <a href={edge.node.frontmatter.link} className={blogStyles.linkitem} target="_blank" rel="noreferrer">
                             <h2>{edge.node.frontmatter.title}</h2>
                             <p>{edge.node.frontmatter.date} // {edge.node.frontmatter.description}</p>
-                        </Link>
+                        </a>
                     </li>
                 )
             })}
