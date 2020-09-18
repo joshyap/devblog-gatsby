@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import { Link, graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import blogStyles from "./blog.module.css"
 
 const ProjectsPage = () => {
@@ -8,31 +8,31 @@ const ProjectsPage = () => {
     query {
       allMarkdownRemark ( 
         filter: { 
-            frontmatter: { 
-              type: { in:["project"] } 
-              published: { eq: true }
-            }
-          } 
+          frontmatter: { 
+            type: { in:["project"] } 
+            published: { eq: true }
+          }
+        } 
         sort: {
-            fields: [frontmatter___date]
-            order: DESC
+          fields: [frontmatter___date]
+          order: DESC
         }
       ) {
-          edges {
-              node {
-                  frontmatter {
-                      title
-                      date
-                      description
-                      published
-                      type
-                      link
-                  }
-                  fields {
-                      slug
-                  }
-              }
+        edges {
+          node {
+            frontmatter {
+              title
+              date
+              description
+              published
+              type
+              link
+            }
+            fields {
+              slug
+            }
           }
+        }
       }
     }
   `)
