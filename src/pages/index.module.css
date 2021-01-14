@@ -31,10 +31,10 @@
     .flexContainer {
         display: flex; 
         flex-direction: column;
+        justify-content: center;
     }
     .indexText { font-size: 2em}
-    .left {
-        justify-content: center;
+    .left {        
         flex: 0;
     }
     
