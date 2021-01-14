@@ -35,7 +35,7 @@ const data = useStaticQuery(graphql`
                 <li>
                     <a href="mailto:joshua.c.yap@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                 </li>          
-            </ul> */}            
+            </ul>          */}
         </footer>
     )
 }

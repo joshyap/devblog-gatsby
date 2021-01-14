@@ -1,3 +1,9 @@
+/* .logo {
+    max-width: 4vw;
+    margin-left: 4vw;
+    margin-top: 2vh;
+}
+
 .header {
     padding: 0rem 1rem 1rem 1rem;
 }
@@ -30,9 +36,30 @@
 }
 
 .nav-list li:last-child {
-    /* justify-self: end; */
-    /* justify-items: flex-end; */
+    justify-self: end;
+    justify-items: flex-end;
     justify-self: flex-end;
-    /* background-color: red; */
+    background-color: red; 
+} */
+
+
+
+/* DEV ED TUTORIAL */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    min-height: 10vh;
+    align-items: center;
+    margin: auto;
 }
 
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-links, h1 {
+    flex: 1;
+}
