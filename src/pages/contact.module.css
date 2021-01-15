@@ -1,4 +1,4 @@
-.two-column {
+/* .two-column {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -16,4 +16,28 @@
 .contact-list {
     list-style-type: none;
     text-align: center;
+} */
+
+
+
+
+.two-column {
+    display: flex;
+    width: 90%;
+    height: 90vh;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
 }
+
+/* .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+} */
+
+.contact-list {
+    list-style-type: none;
+    text-align: center;
+} 
