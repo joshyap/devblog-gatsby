@@ -30,12 +30,9 @@
     flex-direction: column;
 }
 
-/* .column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-} */
+.column {
+    max-width: 90vw;
+}
 
 .contact-list {
     list-style-type: none;

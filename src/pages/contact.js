@@ -13,10 +13,10 @@ import lionelRichie from "../images/lionel-richie-hello.gif"
 export default () => (
   <Layout>
     <div className={contactStyles.twoColumn}>
-      <div className={contactStyles.column}>          
-        <img src={lionelRichie} alt="Lionel Richie" />
+      <div>          
+        <img src={lionelRichie} className={contactStyles.column} alt="Lionel Richie" />
       </div>
-      <div className={contactStyles.column}>
+      <div>
         {/* <div style={gifStyle}><iframe src="https://giphy.com/embed/4Nq9NNTuIlMnm" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/hello-gif-4Nq9NNTuIlMnm">via GIPHY</a></p> */}
         <h1>Looking for me?</h1>
         <ul className={contactStyles.contactList}>
