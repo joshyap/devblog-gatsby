@@ -52,8 +52,9 @@ const BlogPage = () => {
                       <li className={blogStyles.listitem}>
                           <Link to={`/blog/${edge.node.fields.slug}`} className={blogStyles.linkitem}>
                               <h2>{edge.node.frontmatter.title}</h2>
-                              <p>{edge.node.frontmatter.date} // {edge.node.frontmatter.description}</p>
-                              {/* <p><i>{edge.node.wordCount.words} words</i></p> */}
+                              {/* <p>{edge.node.frontmatter.date} // {edge.node.frontmatter.description}</p> */}
+                              <p>{edge.node.frontmatter.description}</p>
+                              <p><i>{edge.node.wordCount.words} words</i></p>
                           </Link>
                       </li>
                   )
