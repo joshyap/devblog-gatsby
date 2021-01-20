@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import blogStyles from "./blog.module.css"
+import Head from "../components/head"
 
 
 const BlogPage = () => {
@@ -43,6 +44,7 @@ const BlogPage = () => {
 
   return (
       <Layout>
+          <Head title="blog" />
           <h1 className={blogStyles.header}>Blog posts - thoughts are my own</h1>
           <ol className={blogStyles.bloglist}>
               {data.allMarkdownRemark.edges.map((edge) => {

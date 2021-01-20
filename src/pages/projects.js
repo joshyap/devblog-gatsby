@@ -2,6 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import { graphql, useStaticQuery } from 'gatsby'
 import blogStyles from "./blog.module.css"
+import Head from "../components/head"
+
 
 const ProjectsPage = () => {
   const data = useStaticQuery(graphql`
@@ -39,6 +41,7 @@ const ProjectsPage = () => {
 
   return (
     <Layout>
+        <Head title="projects" />
         <h1 className={blogStyles.header}>Projects</h1>
         <ol className={blogStyles.bloglist}>
             {data.allMarkdownRemark.edges.map((edge) => {

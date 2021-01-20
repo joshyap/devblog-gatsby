@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'joshyap.dev',
+    title: `joshyap.dev`,
     author: 'Josh Yap'
   },
   plugins: [
@@ -24,5 +24,6 @@ module.exports = {
       },
     },    
     'gatsby-transformer-remark',
+    'gatsby-plugin-react-helmet',
   ],
 }

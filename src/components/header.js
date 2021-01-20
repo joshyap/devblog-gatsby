@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
-import yap_logo from "../../static/yap_logo.png"
 
 
 import headerStyles from "./header.module.css"

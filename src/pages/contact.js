@@ -2,22 +2,17 @@ import React from "react"
 import Layout from "../components/layout"
 import contactStyles from "./contact.module.css"
 import lionelRichie from "../images/lionel-richie-hello.gif"
+import Head from "../components/head"
 
-// let gifStyle = {
-//   width: '100%',
-//   height: '0',
-//   paddingBottom: '69%',
-//   position: 'relative'
-// }
 
 export default () => (
   <Layout>
+    <Head title="contact" />
     <div className={contactStyles.twoColumn}>
       <div>          
         <img src={lionelRichie} className={contactStyles.column} alt="Lionel Richie" />
       </div>
-      <div>
-        {/* <div style={gifStyle}><iframe src="https://giphy.com/embed/4Nq9NNTuIlMnm" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/hello-gif-4Nq9NNTuIlMnm">via GIPHY</a></p> */}
+      <div>        
         <h1>Looking for me?</h1>
         <ul className={contactStyles.contactList}>
           <li /*{ className={contactStyles.contactList}*/><a href="https://joshyap-bucket.s3.amazonaws.com/joshua-yap-resume-2021.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li> 

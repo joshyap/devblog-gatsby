@@ -1,15 +1,16 @@
 import React from "react"
 // import Layout from "../components/layout"
 import indexStyles from "./index.module.css"
-import globalStyles from "../styles/global.css"
 import Header from "../components/header"
 // import Footer from "../components/footer"
 import TextLoop from "react-text-loop"
 import Logo from "../components/logo.js"
+import Head from '../components/head'
 
 
-export default () => (
-  <div>  
+export default () => (  
+  <div>
+    <Head title="home" />
     <Header />
       <main className={indexStyles.flexContainer}>
         <section className={indexStyles.left}>
