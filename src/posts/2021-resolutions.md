@@ -6,7 +6,7 @@ type: blogpost
 published: true
 ---
 
-The 2020 year will surely go down as a memorable one in the books. I got my first house, got my first wife, experienced my first global pandemic, and witnessed my first major attempted insurrection of the US government. Same old, same old. 
+The 2020 year will surely go down as a memorable one in the books. I got my first house, got my first wife (hopefully, only wife), experienced my first global pandemic, and witnessed my first major attempted insurrection of the US government. Same old, same old. 
 <br><br>
 The jury is still out on the lasting impacts of COVID-19 on the world at large, but I can already see some changes that will likely stay with my life. I know that working remotely is actually much more enjoyable than I imagined, wearing a mask is something I'll continue doing during commutes/travel even for allergy reasons, and that my previous idea of work life balance was certainly lacking. Call me a glass half full kind of guy. 
 <br><br>

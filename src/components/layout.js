@@ -9,6 +9,7 @@ const Layout = (props) => {
     return (
         <div className={layoutStyles.backLayout}>
             <div className={layoutStyles.layout}>
+                {/* <span className="cursor"></span> */}
                 <Header />
                 <Container>
                     {props.children}

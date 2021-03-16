@@ -10,3 +10,4 @@ Cloud computing is all the new hotness. It is redefining how software is archite
 <br><br>
 I will be detailing my thoughts on the exam and how I prepared here later, but for now, here is proof that I actually passed:
 https://joshyap-bucket.s3.amazonaws.com/AWS-Certified-Cloud-Practitioner-certificate.pdf
+<br><br>
