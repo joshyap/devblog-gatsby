@@ -1,6 +1,6 @@
 import React from "react"
 // import Layout from "../components/layout"
-import indexStyles from "./index.module.css"
+import * as indexStyles from "./index.module.css"
 import Header from "../components/header"
 // import Footer from "../components/footer"
 import TextLoop from "react-text-loop"
@@ -8,7 +8,7 @@ import Logo from "../components/logo.js"
 import Head from '../components/head'
 
 
-export default () => (  
+const Index = () => (  
   <div>
     <Head title="home" />
     <Header />
@@ -32,3 +32,5 @@ export default () => (
       </main>
   </div> 
 )
+
+export default Index;

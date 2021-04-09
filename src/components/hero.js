@@ -1,8 +1,8 @@
 import React from 'react'
-import heroStyles from "./hero.module.css"
-import Header from "../components/header"
-import Footer from "../components/footer"
-import Layout from "../components/layout"
+import * as heroStyles from "./hero.module.css"
+import * as Header from "../components/header"
+import * as Footer from "../components/footer"
+import * as Layout from "../components/layout"
 
 const Hero = () => {
     return (

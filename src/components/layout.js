@@ -1,7 +1,7 @@
 import React from 'react'
-import layoutStyles from "./layout.module.css"
+import * as layoutStyles from "./layout.module.css"
 import Header from "../components/header"
-import Footer from "../components/footer"
+// import Footer from "../components/footer"
 import Container from "../components/container"
 
 
