@@ -49,7 +49,7 @@ const ProjectsPage = () => {
                     <li className={blogStyles.listitem}>
                         <a href={edge.node.frontmatter.link} className={blogStyles.linkitem} target="_blank" rel="noreferrer">
                             <h2>{edge.node.frontmatter.title}</h2>
-                            <p>{edge.node.frontmatter.date} // {edge.node.frontmatter.description}</p>
+                            <p>{edge.node.frontmatter.date} - {edge.node.frontmatter.description}</p>
                         </a>
                     </li>
                 )

@@ -3,7 +3,7 @@ title: "Learning Django by doing - Building out Fin"
 date: "09-16-20"
 description: "Building a habit tracker app with Django"
 type: blogpost
-published: true
+published: false
 ---
 Tutorial hell. Any self-taught or junior developer has probably been there before. You've learned some basic programming syntax, watched a lot of tutorials, and maybe read some documentation. Putting it all together and _actually_ building something though? That's a different story.
 <br><br>

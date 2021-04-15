@@ -1,7 +1,8 @@
 ---
-title: "Voowols"
-date: "11-20-19"
-description: "Reading funny workds with the Speech Synthesis Web API"
+title: "Udacity Front End Web Developer Nanodegree"
+# date: '11-20-19'
+order: 7
+description: "Pivoting to the frontend side of things"
 type: blogpost
 published: true
 ---

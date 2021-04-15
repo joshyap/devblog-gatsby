@@ -16,7 +16,7 @@ const BlogPage = () => {
                     }
                   }
                 sort: {
-                    fields: [frontmatter___date]
+                    fields: frontmatter___order
                     order: DESC
                 }
             ) {
@@ -24,7 +24,7 @@ const BlogPage = () => {
                     node {
                         frontmatter {
                             title
-                            date
+                            order
                             description
                             published
                             type
@@ -45,6 +45,7 @@ const BlogPage = () => {
   return (
       <Layout>
           <Head title="blog" />
+          {/* // date(formatString: "MM DD YYYY") */}
           <h1 className={blogStyles.header}>Blog posts - thoughts are my own</h1>
           <ol className={blogStyles.bloglist}>
               {data.allMarkdownRemark.edges.map((edge) => {
@@ -54,7 +55,7 @@ const BlogPage = () => {
                               <h2>{edge.node.frontmatter.title}</h2>
                               {/* <p>{edge.node.frontmatter.date} // {edge.node.frontmatter.description}</p> */}
                               <p>{edge.node.frontmatter.description}</p>
-                              <p><i>{edge.node.wordCount.words} words</i></p>
+                              {/* <p>{edge.node.frontmatter.order} - <i>{edge.node.wordCount.words} words</i></p> */}
                           </Link>
                       </li>
                   )

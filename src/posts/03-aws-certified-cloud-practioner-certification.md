@@ -1,6 +1,7 @@
 ---
 title: "Becoming an AWS Certified Cloud Practioner"
-date: "08-29-20"
+# date: '08-29-20'
+order: 3
 description: "How I got my first AWS certification in less than 2 weeks"
 type: blogpost
 published: true

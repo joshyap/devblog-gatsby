@@ -1,6 +1,7 @@
 ---
 title: "2021 New Years Resolutions"
-date: "01-15-21"
+# date: '01-15-21'
+order: 2
 description: "Roadmap for my skill growth through the new year"
 type: blogpost
 published: true

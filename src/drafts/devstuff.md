@@ -3,7 +3,7 @@ title: "Launching devstuff.shop"
 date: "09-15-20"
 description: "Kicking off my second entrepreneurial venture"
 type: blogpost
-published: true
+published: false
 ---
 My path into tech was a bit atypical. I had an idea for a subscription ecommerce business while working at a tech startup called [Cratejoy](https://www.cratejoy.com/), but the problem was that I hated relying on other people building out my vision. That led me to enroll in a web development bootcamp to pick up some techincal skills so I could get my hands dirty. I used those skills to build and launch Smash Crate. That business focused on distributing Super Smash Bros video game fanart content as a subscription service and was much more successful than I ever anticipated. 
 <br><br>
