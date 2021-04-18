@@ -8,8 +8,7 @@ import Container from "../components/container"
 const Layout = (props) => {
     return (
         <div className={layoutStyles.backLayout}>
-            <div className={layoutStyles.layout}>
-                {/* <span className="cursor"></span> */}
+            <div className={layoutStyles.layout}>                
                 <Header />
                 <Container>
                     {props.children}

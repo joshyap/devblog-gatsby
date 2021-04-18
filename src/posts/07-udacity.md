@@ -6,9 +6,10 @@ description: "Pivoting to the frontend side of things"
 type: blogpost
 published: true
 ---
-Sometimes you find yourself in a rut and you just need to build something stupid for fun. It's like when you decide to pick up some dystopian young adult novels for light reading to build some momentum and get back into the habit of reading. That is why I decided to build this Voowols project. 
+I spent the last two years and change working in data engineering. This involved a lot of ETL (extract/transform/load) development, SQL, python, AWS cloud infrastructure, and work on linux servers. Data engineering is definitely a hot field and I expect it to be even more in demand in the future as more companies build out data science and analytic teams.
 <br><br>
-We have a slack channel at work called "voowols". This channel is sort of like a water cooler in the office. It is intended for free talk about whatever is on your mind, but it does have one rule: <br>
-every word you type has to have every "o" replaced with "oo" and every non "o" vowel has to be replaced with an "o"
+For me though, I was drawn into tech because I wanted to build things. I loved the idea of having an idea and bringing it to life. In fact, I enrolled in a coding bootcamp because I had an idea for an e-commerce comapny that I wanted to launch. I learned web development, built the company, and ran it full-time for over two years. 
 <br><br>
-Just replacing the vowels with O's is boring though. The real fun is reading out the newly formed sentences. I was able to do that using the [speech synthesis web API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis), which actually allows for control of reading rate, language, and pitch. 
+I put a lot of time into iterating and testing my business with users. There is something so enjoyable about the quick and tangible feedback from putting together a quick demo and letting a user test it themselves. Frontend web development is really where my heart is when it comes to software development. Between tools like react native and AWS amplify, you can pretty much do anything with frontend skills and some javascript knowledge these days. 
+<br><br>
+My cousin-in-law is pivoting into tech from pharmacy and is completing the Udacity frontend web development nanodegree. This seemed like the perfect opportunity to brush up on things so I am doing the program along with her. 
