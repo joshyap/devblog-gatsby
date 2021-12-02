@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/blog/react-calculator",
+    "result": {"data":{"markdownRemark":{"frontmatter":{"title":"React Calculator PWA","date":"05-01-20"},"html":""}},"pageContext":{"slug":"react-calculator"}},
+    "staticQueryHashes": ["3159585216"]}

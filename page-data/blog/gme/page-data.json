@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/blog/gme",
+    "result": {"data":{"markdownRemark":{"frontmatter":{"title":"Tracking Gamestop stock with Streamlit","date":"03-13-21"},"html":""}},"pageContext":{"slug":"gme"}},
+    "staticQueryHashes": ["3159585216"]}

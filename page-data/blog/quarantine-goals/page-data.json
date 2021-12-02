@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/blog/quarantine-goals",
+    "result": {"data":{"markdownRemark":{"frontmatter":{"title":"Quarantine tracker","date":"05-01-20"},"html":"<table>\n<thead>\n<tr>\n<th>Date</th>\n<th align=\"center\">Weight (lbs)</th>\n<th align=\"right\">Notes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>5/11/20</td>\n<td align=\"center\">156.8</td>\n<td align=\"right\">started AWS cert course</td>\n</tr>\n<tr>\n<td>5/12/20</td>\n<td align=\"center\">156.0</td>\n<td align=\"right\">$12</td>\n</tr>\n<tr>\n<td>zebra stripes</td>\n<td align=\"center\">are neat</td>\n<td align=\"right\">$1</td>\n</tr>\n</tbody>\n</table>"}},"pageContext":{"slug":"quarantine-goals"}},
+    "staticQueryHashes": ["3159585216"]}

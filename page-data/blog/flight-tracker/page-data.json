@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/blog/flight-tracker",
+    "result": {"data":{"markdownRemark":{"frontmatter":{"title":"Flight tracker","date":"10-03-20"},"html":""}},"pageContext":{"slug":"flight-tracker"}},
+    "staticQueryHashes": ["3159585216"]}

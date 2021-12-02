@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/blog/voowols",
+    "result": {"data":{"markdownRemark":{"frontmatter":{"title":"Voowols","date":"11-20-19"},"html":""}},"pageContext":{"slug":"voowols"}},
+    "staticQueryHashes": ["3159585216"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/blog/x509-cert-formatter",
+    "result": {"data":{"markdownRemark":{"frontmatter":{"title":"X509 Cert Formatter","date":"11-20-20"},"html":""}},"pageContext":{"slug":"x509-cert-formatter"}},
+    "staticQueryHashes": ["3159585216"]}

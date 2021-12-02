@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/blog/clipboard-landing-page",
+    "result": {"data":{"markdownRemark":{"frontmatter":{"title":"Clipboard Landing page","date":"08-05-20"},"html":""}},"pageContext":{"slug":"clipboard-landing-page"}},
+    "staticQueryHashes": ["3159585216"]}

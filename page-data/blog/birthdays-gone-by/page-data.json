@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/blog/birthdays-gone-by",
+    "result": {"data":{"markdownRemark":{"frontmatter":{"title":"Birthdays gone by","date":null},"html":"<p>This is a post about my selenium webdriver automation.</p>"}},"pageContext":{"slug":"birthdays-gone-by"}},
+    "staticQueryHashes": ["3159585216"]}

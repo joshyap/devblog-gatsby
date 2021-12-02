@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/blog/twitter-bot",
+    "result": {"data":{"markdownRemark":{"frontmatter":{"title":"Twitter bot using AWS Lambda","date":"08-05-20"},"html":""}},"pageContext":{"slug":"twitter-bot"}},
+    "staticQueryHashes": ["3159585216"]}

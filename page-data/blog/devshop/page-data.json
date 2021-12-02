@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/blog/devshop",
+    "result": {"data":{"markdownRemark":{"frontmatter":{"title":"devshop.stuff","date":"09-18-20"},"html":""}},"pageContext":{"slug":"devshop"}},
+    "staticQueryHashes": ["3159585216"]}

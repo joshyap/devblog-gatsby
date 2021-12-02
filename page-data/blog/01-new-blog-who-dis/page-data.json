@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/blog/01-new-blog-who-dis",
+    "result": {"data":{"markdownRemark":{"frontmatter":{"title":"New blog - who dis?","date":null},"html":"<p>This is my new blog and portfolio site built with Gatsby! If you haven't heard of Gatsby, I've really enjoyed it. The buzz is certainly warranted. Allow me to elaborate.\n<br><br>\nFirst off, <a href=\"https://www.gatsbyjs.com/\">Gatsby</a> is an open-source frontend framework with a focus on building fast websites and webapps. It is based on React and is very good at playing nice with different CMS's and APIs. At its heart though, Gatsby is a static site generator. Think of a static site as the types of small web pages that you might've built when first learning about web development (the type that just use plain old HTML, CSS, and javascript).\n<br><br>\nGatsby allows you to utilize modern tools while compiling everything down to the basic building blocks of the web. </p>"}},"pageContext":{"slug":"01-new-blog-who-dis"}},
+    "staticQueryHashes": ["3159585216"]}
