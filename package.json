@@ -14,7 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "3.2.1",
+    "gatsby": "^3.14.6",
     "gatsby-plugin-google-analytics": "2.3.13",
     "gatsby-plugin-react-helmet": "3.9.0",
     "gatsby-source-filesystem": "2.3.23",
@@ -27,7 +27,8 @@
   "devDependencies": {
     "acorn": "7.4.0",
     "gh-pages": "^2.2.0",
-    "prettier": "2.0.4"
+    "prettier": "2.0.4",
+    "webpack": "^5.64.4"
   },
   "repository": {
     "type": "git",
