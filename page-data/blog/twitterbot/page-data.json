@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-blog-js",
     "path": "/blog/twitterbot",
-    "result": {"data":{"markdownRemark":{"frontmatter":{"title":"Making a Twitterbot with node.js and AWS lambda functions","date":"07-28-20"},"html":"<p>Learning to code is hard. Becoming a software engineer is hard. Sometimes, you just need a cheerleader to pump you up. </p>\n<p>The problem is that </p>"}},"pageContext":{"slug":"twitterbot"}},
+    "result": {"data":{"markdownRemark":{"frontmatter":{"title":"Making a Twitterbot with node.js and AWS lambda functions","date":null},"html":"<p>Learning to code is hard. Becoming a software engineer is hard. Sometimes, you just need a cheerleader to pump you up. </p>\n<p>The problem is that </p>"}},"pageContext":{"slug":"twitterbot"}},
     "staticQueryHashes": ["3159585216"]}
