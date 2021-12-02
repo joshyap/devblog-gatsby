@@ -1,6 +1,5 @@
 ---
 title: "Launching devstuff.shop"
-date: "09-15-20"
 description: "Kicking off my second entrepreneurial venture"
 type: blogpost
 published: false

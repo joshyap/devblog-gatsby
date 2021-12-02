@@ -1,6 +1,5 @@
 ---
 title: "Making a Twitterbot with node.js and AWS lambda functions"
-date: "07-28-20"
 description: "Writing a bot to tweet encouragement to myself"
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "Quarantine tracker"
-date: "05-01-20"
 description: "Noting down some quarantine goals to keep myself accountable"
 ---
 

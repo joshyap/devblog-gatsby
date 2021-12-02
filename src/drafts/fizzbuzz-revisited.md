@@ -1,6 +1,5 @@
 ---
 title: "FizzBuzz Ternary"
-date: "04-29-20"
 description: "Taking another look at fizzbuzz with ternary operators"
 ---
 

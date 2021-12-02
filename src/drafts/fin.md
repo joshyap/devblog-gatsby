@@ -1,6 +1,5 @@
 ---
 title: "Learning Django by doing - Building out Fin"
-date: "09-16-20"
 description: "Building a habit tracker app with Django"
 type: blogpost
 published: false
